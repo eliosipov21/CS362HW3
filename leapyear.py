@@ -4,7 +4,15 @@ simply run the command: python ilya_osipov_hw1.py in the command line (or python
 '''
 
 
-year = int(input("Enter a integer: \n"))
+x = 0
+while(x == 0):
+    val = input("Enter a integer: \n")
+    try: 
+        year = int(val)
+        x += 1
+    except ValueError:
+        print("That's not an int!")
+
 if(year % 4 == 0): 
     if(year % 100 == 0):
         if(year % 400 == 0):
