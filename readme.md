@@ -1,1 +1,1 @@
-![Flowchart of leapyear program](github.com/eliosipov21/CS362HW3/leapdiagram.png)
+![Flowchart of leapyear program](leapyeardiagram.png)
